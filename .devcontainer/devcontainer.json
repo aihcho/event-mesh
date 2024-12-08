@@ -1,0 +1,16 @@
+{
+    "name": "event-mesh",
+    "dockerFile": "Dockerfile",
+    "context": "..",
+    "appPort": [5000],
+    "forwardPorts": [5000],
+    "remoteUser": "vscode",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-azuretools.vscode-docker"
+            ]
+        }
+    }
+}
